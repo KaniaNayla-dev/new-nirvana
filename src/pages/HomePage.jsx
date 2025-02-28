@@ -1,15 +1,40 @@
+/* eslint-disable react/prop-types */
 import { useTranslation } from "react-i18next";
 import { useState, useEffect } from "react";
 import Jumbotron from "../components/Jumbotron";
 import banner1 from "../assets/banner/banner-1.png";
+import bannerSlicing from "../assets/banner/slicing-banner.png";
+import vacuumBanner from "../assets/banner/vacuum-banner.png";
+import trimmingBanner from "../assets/banner/trimming-banner.png";
+import skinlessBanner from "../assets/banner/skinless-banner.png";
 import { CarouselProvider, Slider, Slide } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
 import selamatDatangBanner from "../assets/images/selamat-datang.png";
 import { NewsCardGrid } from "../components/NewsCard";
 import { newsItems } from "../constants/news";
-import { faculties, testimonials } from "../constants/homepage";
+import { testimonials } from "../constants/homepage";
+import highlightBanner from "../assets/banner/highlight-banner.png";
+import { FaRegStar, FaStar } from "react-icons/fa6";
+import { FaStarHalfAlt } from "react-icons/fa";
 
 const HomePage = () => {
+  const StarRating = ({ rating }) => {
+    const fullStars = Math.floor(rating);
+    const hasHalfStar = rating % 1 !== 0;
+    const emptyStars = 5 - fullStars - (hasHalfStar ? 1 : 0);
+
+    return (
+      <div className="flex text-yellow-400">
+        {[...Array(fullStars)].map((_, i) => (
+          <FaStar key={`full-${i}`} />
+        ))}
+        {hasHalfStar && <FaStarHalfAlt />}
+        {[...Array(emptyStars)].map((_, i) => (
+          <FaRegStar key={`empty-${i}`} />
+        ))}
+      </div>
+    );
+  };
   const { t } = useTranslation();
   const [visibleSlides, setVisibleSlides] = useState(3);
 
@@ -155,7 +180,8 @@ const HomePage = () => {
 
           <a
             href="/about-us"
-            className="inline-block bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 transition-colors mt-4 w-fit"
+            className="inline-block bg-blue-600 text4
+            4-white py-2 px-4 rounded-md hover:bg-blue-700 transition-colors mt-4 w-fit"
           >
             {t("home.about.readMore")}
           </a>
@@ -163,48 +189,104 @@ const HomePage = () => {
       </section>
 
       <section className="p-8">
-        <h2 className="text-center text-2xl font-bold text-[#3A55B4] mb-8">
-          {t("home.faculties.heading")}
+        {/* Section Heading */}
+        <h2 className="text-center text-xl font-bold text-[#3A55B4] ">
+          Our Services
         </h2>
+        <h1 className="text-center text-4xl font-bold text-black/80 mb-8">
+          What We Provide
+        </h1>
 
-        <div className="grid grid-cols-1 p-6 sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center mx-auto max-w-screen-xl">
-          {faculties.map((faculty, index) => (
-            <div
-              key={index}
-              className="p-6 flex flex-col justify-between bg-white"
-            >
-              <h4 className="text-lg font-bold text-[#3A55B4]">
-                {t(`home.faculties.${index}.title`, faculty.title)}
+        {/* Services Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 justify-items-center mx-auto">
+          {/* Slicing */}
+          <div className="relative w-full ">
+            <img
+              src={bannerSlicing}
+              alt="Slicing"
+              className="w-full h-[30rem] object-cover rounded-lg bg-black bg-opacity-50"
+            />
+            <div className="absolute  left-10 bottom-5 text-   bg-opacity-50 text-white py-2 text-center rounded-b-lg">
+              <h4 className="text-3xl font-bold">
+                {t("home.services.slicing")}
               </h4>
-              <p className="text-gray-700">
-                {t(`home.faculties.${index}.description`, faculty.description)}
-              </p>
-              <ol className="list-disc list-inside my-2 text-gray-600">
-                {faculty.programs.map((program, idx) => (
-                  <li key={idx}>{program}</li>
-                ))}
-              </ol>
-              <a href={faculty.link}>
-                <button className="mt-4 rounded-xl px-4 py-2 text-white bg-primary-base hover:bg-primary-hover">
-                  {t("home.faculties.button")}
-                </button>
-              </a>
             </div>
-          ))}
+          </div>
+          <div className="relative w-full ">
+            <img
+              src={vacuumBanner}
+              alt="Vacuum"
+              className="w-full h-[30rem] object-cover rounded-lg bg-black bg-opacity-50"
+            />
+            <div className="absolute  left-10 bottom-5 text-   bg-opacity-50 text-white py-2 text-center rounded-b-lg">
+              <h4 className="text-3xl font-bold">
+                {t("home.services.vacuumSlice")}
+              </h4>
+            </div>
+          </div>
+          <div className="relative w-full ">
+            <img
+              src={trimmingBanner}
+              alt="Trimming"
+              className="w-full h-[30rem] object-cover rounded-lg bg-black bg-opacity-50"
+            />
+            <div className="absolute  left-10 bottom-5 text-   bg-opacity-50 text-white py-2 text-center rounded-b-lg">
+              <h4 className="text-3xl font-bold">
+                {t("home.services.trimming")}
+              </h4>
+            </div>
+          </div>
+          <div className="relative w-full ">
+            <img
+              src={skinlessBanner}
+              alt="Skinless"
+              className="w-full h-[30rem] object-cover rounded-lg bg-black bg-opacity-50"
+            />
+            <div className="absolute  left-10 bottom-5 text-   bg-opacity-50 text-white py-2 text-center rounded-b-lg">
+              <h4 className="text-3xl font-bold">
+                {t("home.services.skinless")}
+              </h4>
+            </div>
+          </div>
         </div>
       </section>
 
+      <div
+        className="flex w-full p-20 text-white bg-blue-800 bg-cover bg-center"
+        style={{ backgroundImage: `url(${highlightBanner})` }}
+      >
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center max-w-screen-md mx-auto">
+          <div>
+            <p className="text-4xl font-bold">3</p>
+            <p className="mt-2">{t("home.services.stat1")}</p>
+          </div>
+          <div>
+            <p className="text-4xl font-bold">12</p>
+            <p className="mt-2">{t("home.services.stat2")}</p>
+          </div>
+          <div>
+            <p className="text-4xl font-bold">252</p>
+            <p className="mt-2">{t("home.services.stat3")}</p>
+          </div>
+        </div>
+      </div>
+
       <section className="p-8">
-        <h2 className="text-center text-2xl font-bold text-[#3A55B4] mb-8">
-          {t("home.news.heading")}
+        <h2 className="text-center text-xl font-bold text-[#3A55B4] ">
+          Our Products
         </h2>
+        <h1 className="text-center text-4xl font-bold text-black/80 mb-8">
+          What We Excel
+        </h1>
         <NewsCardGrid newsItems={newsItems} length={3} />
       </section>
-
       <section className="p-8 bg-gray-50">
-        <h2 className="text-center text-2xl font-bold text-[#3A55B4] mb-8">
-          {t("home.testimonials.heading")}
+        <h2 className="text-center text-xl font-bold text-[#3A55B4] ">
+          Our Testimonies
         </h2>
+        <h1 className="text-center text-4xl font-bold text-black/80 mb-8">
+          What They Say About Us
+        </h1>
         <CarouselProvider
           naturalSlideWidth={16}
           naturalSlideHeight={18}
@@ -219,8 +301,8 @@ const HomePage = () => {
             {testimonials.map((testimonial, index) => (
               <Slide key={index} index={index}>
                 <div className="p-6">
-                  <div className="flex flex-col items-center justify-center p-4 bg-white w-[90%] rounded-lg border-2 h-full min-h-[150px]">
-                    <p className="text-secondary-base mb-4">
+                  <div className="flex flex-col items-center justify-center p-4 bg-white w-[90%] rounded-lg border border-gray-200 shadow-sm h-full min-h-[180px]">
+                    <p className="text-gray-700 mb-4 text-center">
                       &quot;{testimonial.quote}&quot;
                     </p>
                   </div>
@@ -228,21 +310,56 @@ const HomePage = () => {
                     <img
                       src={testimonial.avatar}
                       alt={testimonial.name}
-                      className="w-12 h-12 rounded-full"
+                      className="w-12 h-12 rounded-full object-cover"
                     />
                     <div>
                       <h4 className="font-bold text-gray-900">
                         {testimonial.name}
                       </h4>
-                      <p className="text-sm text-gray-600">
+                      <p className="text-sm text-gray-600 mb-1">
                         {testimonial.program}
                       </p>
+                      <StarRating rating={testimonial.rating} />
                     </div>
                   </div>
                 </div>
               </Slide>
             ))}
           </Slider>
+          <div className="flex justify-center mt-4">
+            <button className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white p-2 rounded-full shadow-md z-10 ml-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-6 w-6 text-gray-600"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M15 19l-7-7 7-7"
+                />
+              </svg>
+            </button>
+            <button className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white p-2 rounded-full shadow-md z-10 mr-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-6 w-6 text-gray-600"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+            </button>
+          </div>
         </CarouselProvider>
       </section>
     </div>

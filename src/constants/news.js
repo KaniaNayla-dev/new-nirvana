@@ -1,36 +1,33 @@
-import beritaOne from "../assets/images/berita-1.png";
-import beritaTwo from "../assets/images/berita-2.png";
-import beritaThree from "../assets/images/berita-3.png";
-
+import bakso from "../assets/products/nugget.png";
+import ikanTuna from "../assets/products/ikan-tuna.png";
+import lumpia from "../assets/products/lumpia.png";
 export const newsItems = [
   {
     id: 123123,
-    title:
-      "Hibah Teknologi Digitalisasi Pengolahan Data Bank Sampah Kemuning, Kolaborasi Kegiatan Pengabdian Kepada Masyarakat",
+    title: "Bakso Ikan Tuna 250gr Frozen Food Halal dan Sehat",
     description:
-      "UMIBA terus berkomitmen meningkatkan kualitas pendidikan dengan meresmikan gedung baru untuk Fakultas Teknik. Gedung yang dilengkapi dengan laboratorium canggih dan ruang kelas interaktif ini...",
-    date: "20/08/2024",
-    image: beritaOne,
+      "BAKSO IKAN NIRVANA FOOD Olahan Ikan Tuna Kualitas Premium !!!   PENTING!!! Semua Produk yang kami kirimkan adalah BEKU/FROZEN dan PRODUKSI TERBARU.   - Bakso Ikan merupakan olahan Asli Daging Ikan Tuna Kualitas Premium - Harga yang tertera adalah harga per....",
+    date: "01/05/2025",
+    image: bakso,
     contentFile: "/texts/placeholder.txt",
   },
   {
     id: 123901831,
-    title:
-      "UMIBA Jalin Kerjasama Dengan Universitas Bakrie Dalam Upaya Meningkatkan Kualitas Pelaksanaan Tri Dharma Perguruan Tinggi",
+    title: "Lumpia Ikan Tuna 250gr Frozen Food Halal dan Sehat",
     description:
-      "UMIBA melakukan kunjungan ke Universitas Bakrie pada 14 Agustus 2024 untuk melakukan penandatanganan nota kesepakatan antara Universitas Mitra Bangsa dengan Universitas Bakrie perihal ke...",
-    date: "19/08/2024",
+      "LUMPIA IKAN NIRVANA FOOD Olahan Ikan Tuna Kualitas Premium !!!   PENTING!!! Semua Produk yang kami kirimkan adalah BEKU/FROZEN dan PRODUKSI TERBARU.   - Lumpia Ikan merupakan olahan Asli Daging Ikan Tuna Kualitas Premium - Harga yang tertera adalah harga per bungkus - 1 Bungkus berisi 6 Biji - Berat total 250 gram - Bersertifikat HA",
+    date: "02/05/2025",
     place: "Jakarta,Indonesia",
-    image: beritaThree,
+    image: ikanTuna,
     contentFile: "/texts/placeholder.txt",
   },
   {
     id: 12038101421,
-    title: "UMIBA Resmikan Seminar Internasional Tentang Teknologi dan Inovasi",
+    title: "Nugget Ikan Tuna 250gr Frozen Food Halal dan Sehat",
     description:
-      "UMIBA baru saja menyelenggarakan seminar internasional dengan tema 'Teknologi dan Inovasi untuk Masa Depan'. Seminar ini menjadi ajang untuk berbagi pengetahuan dan pengalaman terkait perkembangan t...",
-    date: "18/08/2024",
-    image: beritaTwo,
+      "NUGGET IKAN NIRVANA FOOD Olahan Ikan Tuna Kualitas Premium !!!   PENTING!!! Semua Produk yang kami kirimkan adalah BEKU/FROZEN dan PRODUKSI TERBARU.   - Nugget Ikan merupakan olahan Asli Daging Ikan Tuna Kualitas Premium - Harga yang tertera adalah harga per bungkus - 1 Bungkus berisi 12 Biji - Berat total 250 gram - Bersertifikat H",
+    date: "12/05/2025",
+    image: lumpia,
     contentFile: "/texts/placeholder.txt",
   },
   {
@@ -38,8 +35,8 @@ export const newsItems = [
     title: "UMIBA Membuka Program Baru untuk Industri Kreatif",
     description:
       "Dalam rangka mendukung perkembangan industri kreatif, UMIBA mengumumkan peluncuran program baru yang berfokus pada desain, seni, dan teknologi...",
-    date: "17/08/2024",
-    image: beritaTwo,
+    date: "09/05/2025",
+    image: lumpia,
     contentFile: "/texts/placeholder.txt",
   },
   {
@@ -48,7 +45,7 @@ export const newsItems = [
     description:
       "UMIBA berhasil meraih penghargaan bergengsi dalam kompetisi tingkat nasional, membuktikan kualitas dan dedikasi mahasiswa dalam berbagai bidang akademik...",
     date: "16/08/2024",
-    image: beritaThree,
+    image: ikanTuna,
     contentFile: "/texts/placeholder.txt",
   },
   {
@@ -58,7 +55,7 @@ export const newsItems = [
     description:
       "UMIBA berhasil meraih penghargaan bergengsi dalam kompetisi tingkat nasional, membuktikan kualitas dan dedikasi mahasiswa dalam berbagai bidang akademik...",
     date: "16/08/2024",
-    image: beritaOne,
+    image: ikanTuna,
     contentFile: "/texts/placeholder.txt",
   },
   {
@@ -68,7 +65,7 @@ export const newsItems = [
     description:
       "UMIBA berhasil meraih penghargaan bergengsi dalam kompetisi tingkat nasional, membuktikan kualitas dan dedikasi mahasiswa dalam berbagai bidang akademik...",
     date: "16/08/2024",
-    image: beritaOne,
+    image: ikanTuna,
     contentFile: "/texts/placeholder.txt",
   },
   {
@@ -78,7 +75,7 @@ export const newsItems = [
     description:
       "UMIBA berhasil meraih penghargaan bergengsi dalam kompetisi tingkat nasional, membuktikan kualitas dan dedikasi mahasiswa dalam berbagai bidang akademik...",
     date: "16/08/2024",
-    image: beritaOne,
+    image: ikanTuna,
     contentFile: "/texts/placeholder.txt",
   },
   {
@@ -88,7 +85,7 @@ export const newsItems = [
     description:
       "UMIBA berhasil meraih penghargaan bergengsi dalam kompetisi tingkat nasional, membuktikan kualitas dan dedikasi mahasiswa dalam berbagai bidang akademik...",
     date: "16/08/2024",
-    image: beritaOne,
+    image: ikanTuna,
     contentFile: "/texts/placeholder.txt",
   },
 ];
