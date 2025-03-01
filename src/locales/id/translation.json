@@ -25,5 +25,50 @@
     "testimonials": {
       "heading": "Testimoni dari para Mahasiswa"
     }
+  },
+  "Testimoni": {
+    "heading": "Testimoni dari para Mahasiswa",
+    "desc": "Bekerja dengan Nirvana Niaga Sejahtera telah menjadi titik balik yang luar biasa bagi bisnis kami. Tim mereka profesional, berdedikasi, dan sangat terampil dalam memberikan solusi yang disesuaikan dengan kebutuhan kami. Layanan pelanggan mereka yang luar biasa dan keahlian dalam industri ini menjadikan mereka mitra yang tak ternilai. Kami sangat merekomendasikan layanan mereka kepada siapa saja yang ingin membawa bisnis mereka ke level berikutnya.",
+    "banner_p": "Kepercayaan Anda, Komitmen Kami",
+    "banner_h1": "Kisah Nyata, Kepuasan Nyata dari Klien Kami"
+  },
+  "aboutus": {
+    "about_1": {
+      "title": "Siapa Kami?",
+      "description_1": "Merupakan kehormatan bagi kami untuk memperkenalkan PT. Nirvana Niaga Sejahtera, salah satu perusahaan pengolahan seafood profesional di Indonesia. Untuk tetap berada di garis depan pasar perikanan global yang dinamis, kami berkomitmen untuk memastikan teknik pengolahan yang tepat dan standar tinggi untuk menghasilkan produk seafood berkualitas.",
+      "description_2": "Didirikan pada tahun 2017 di Kawasan Industri Makassar, Sulawesi Selatan, Indonesia, perusahaan kami mengkhususkan diri dalam pengelolaan ikan segar dan beku. Kami menawarkan berbagai jenis ikan dari perairan laut Indonesia, tersedia dalam berbagai jenis potongan dan ukuran untuk memenuhi kebutuhan pelanggan kami."
+    },
+    "about_2": {
+      "title": "Produksi & Teknologi Kami",
+      "description_1": "Untuk menjamin kualitas premium, PT. Nirvana Niaga Sejahtera:",
+      "description_2": [
+        "Memilih hanya ikan berkualitas terbaik dari perairan Indonesia.",
+        "Mengolah ikan dengan peralatan modern untuk kesegaran dan kebersihan.",
+        "Mempekerjakan profesional berpengalaman untuk produksi standar tinggi."
+      ],
+      "description_3": "Dengan fasilitas canggih dan kontrol kualitas yang ketat, kami memproduksi seafood segar dan beku yang higienis, sehat, dan aman untuk dikonsumsi untuk pasar lokal dan internasional."
+    },
+    "about_3": {
+      "title": "Nilai & Komitmen Kami",
+      "description_1": "Di PT. Nirvana Niaga Sejahtera, kami beroperasi dengan semangat kerja tim, bekerja secara profesional dan berdedikasi mulai dari penangkapan ikan hingga pengolahan.",
+      "description_2": "Kami sangat berkomitmen untuk:",
+      "description_3": [
+        "Mempertahankan keberlanjutan perikanan dan ekosistem laut.",
+        "Mengikuti prosedur penangkapan ikan yang etis dan benar.",
+        "Menjamin kebersihan, keamanan, dan kualitas di setiap proses."
+      ],
+      "description_4": "Dengan mematuhi standar industri yang ketat, kami memastikan bahwa setiap produk yang kami kirimkan memenuhi harapan kualitas tertinggi."
+    },
+    "about_4": {
+      "title": "Pertumbuhan Berkelanjutan & Standar Global",
+      "description_1": "Kami mengucapkan terima kasih yang sebesar-besarnya kepada semua pelanggan setia yang mempercayai kami sebagai pemasok seafood premium mereka. Dukungan Anda mendorong kami untuk:",
+      "description_2": [
+        "Terus meningkatkan kualitas layanan dan produk.",
+        "Berpartisipasi secara positif dalam sektor perikanan Indonesia.",
+        "Menjamin kepatuhan terhadap standar seafood nasional dan internasional."
+      ],
+      "description_3": "Di era globalisasi, kami berusaha untuk tetap menjadi salah satu perusahaan pengolahan seafood yang paling dicari dengan menerapkan program manajemen perikanan canggih yang mencakup penangkapan, persiapan, penyimpanan, dan pengolahan.",
+      "description_4": "Melalui sinergi profesional berpengalaman dan teknologi canggih, PT. Nirvana Niaga Sejahtera berkomitmen untuk menyediakan produk seafood berkualitas tinggi ke seluruh dunia."
+    }
   }
 }
