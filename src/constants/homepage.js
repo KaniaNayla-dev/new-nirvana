@@ -26,7 +26,7 @@ export const testimonials = [
   },
   {
     quote:
-      "I am very impressed with the dedication and quality of this team. Not only did they complete the work quickly, but they also delivered results that exceeded my expectations. The entire process was smooth and transparent, making me trust their services even more.",
+      "I am very impressed with the dedication and quality of this team. They delivered results that exceeded my expectations.",
     name: "Dewi Najwa Fachrunnisa",
     avatar: mukaSmallThree,
     rating: 4,

@@ -1,5 +1,5 @@
 import bakso from "../assets/products/bakso.jpeg";
-import ikanTuna from "../assets/products/ikan-tuna.png";
+
 import lumpia from "../assets/products/lumpia.png";
 import nugget from "../assets/products/nugget.png";
 import abon from "../assets/products/abon.jpeg";
