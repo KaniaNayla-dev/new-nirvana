@@ -1,13 +1,12 @@
-import React from "react";
 import { useParams } from "react-router-dom";
-import { newsItems } from "../constants/news";
+import { products } from "../constants/news";
 import NotFound from "../components/NotFound";
 import { useEffect, useState } from "react";
 import { NewsCardGrid } from "../components/NewsCard";
 
 const ProductDetailPage = () => {
   const { id } = useParams();
-  const news = newsItems.find((item) => item.id.toString() === id);
+  const news = products.find((item) => item.id.toString() === id);
 
   const [content, setContent] = useState("");
 
@@ -51,7 +50,7 @@ const ProductDetailPage = () => {
       <div className="text-[#3A55B4]  font-bold my-8">
         <h3 className="text-xl">Produk Lainnya</h3>
 
-        <NewsCardGrid newsItems={newsItems} length={3} />
+        <NewsCardGrid newsItems={products} length={3} />
       </div>
     </div>
   );

@@ -11,11 +11,13 @@ import { CarouselProvider, Slider, Slide } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
 import selamatDatangBanner from "../assets/images/selamat-datang.png";
 import { NewsCardGrid } from "../components/NewsCard";
-import { newsItems } from "../constants/news";
+import { products } from "../constants/news";
 import { testimonials } from "../constants/homepage";
 import highlightBanner from "../assets/banner/highlight-banner.png";
 import { FaRegStar, FaStar } from "react-icons/fa6";
 import { FaStarHalfAlt } from "react-icons/fa";
+import { TiPlus } from "react-icons/ti";
+import { MdHighQuality } from "react-icons/md";
 
 const HomePage = () => {
   const StarRating = ({ rating }) => {
@@ -44,7 +46,7 @@ const HomePage = () => {
     } else if (window.innerWidth >= 768) {
       setVisibleSlides(2);
     } else {
-      setVisibleSlides(1); // Show 1 item on small screens
+      setVisibleSlides(1);
     }
   };
 
@@ -85,33 +87,36 @@ const HomePage = () => {
         <Slider>
           <Slide index={0}>
             <Jumbotron
-              title={t("home.jumbotron.title")}
-              description={t("home.jumbotron.description")}
-              buttonText={t("home.jumbotron.buttonText")}
-              buttonLink="/pendaftaran-online"
+              welcomeText={t("home.jumbotron.slide1.welcomeText")}
+              title={t("home.jumbotron.slide1.title")}
+              description={t("home.jumbotron.slide1.description")}
+              buttonText={t("home.jumbotron.slide1.buttonText")}
+              buttonLink="/contact"
               bgImage={banner1}
             />
           </Slide>
           <Slide index={1}>
             <Jumbotron
-              title={t("home.jumbotron.title")}
-              description={t("home.jumbotron.description")}
-              buttonText={t("home.jumbotron.buttonText")}
-              buttonLink="/pendaftaran-online"
+              welcomeText={t("home.jumbotron.slide2.welcomeText")}
+              title={t("home.jumbotron.slide2.title")}
+              description={t("home.jumbotron.slide2.description")}
+              buttonText={t("home.jumbotron.slide2.buttonText")}
+              buttonLink="/about-us"
               bgImage={banner1}
             />
           </Slide>
           <Slide index={2}>
             <Jumbotron
-              title={t("home.jumbotron.title")}
-              description={t("home.jumbotron.description")}
-              buttonText={t("home.jumbotron.buttonText")}
-              buttonLink="/pendaftaran-online"
+              welcomeText={t("home.jumbotron.slide3.welcomeText")}
+              title={t("home.jumbotron.slide3.title")}
+              description={t("home.jumbotron.slide3.description")}
+              buttonText={t("home.jumbotron.slide3.buttonText")}
+              buttonLink="/certifications"
               bgImage={banner1}
             />
           </Slide>
         </Slider>
-        <div className="flex justify-center "></div>
+        <div className="flex justify-center"></div>
       </CarouselProvider>
 
       <section className="p-8 w-full flex flex-col md:flex-row items-center justify-center gap-8">
@@ -141,18 +146,14 @@ const HomePage = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-2">
             <div className="flex items-center gap-3">
               <div className="bg-amber-100 p-2 rounded-lg">
-                <img
-                  src="/fruits-icon.png"
-                  alt="Fruits icon"
-                  className="w-8 h-8"
-                />
+                <MdHighQuality className="text-blue-900" />
               </div>
               <div className="font-medium">{t("home.about.feature1")}</div>
             </div>
 
             <div className="flex items-center gap-3">
               <div className="bg-amber-100 p-2 rounded-lg">
-                <img src="/tips-icon.png" alt="Tips icon" className="w-8 h-8" />
+                <TiPlus className="text-blue-900" />
               </div>
               <div className="font-medium">{t("home.about.feature2")}</div>
             </div>
@@ -181,7 +182,7 @@ const HomePage = () => {
           <a
             href="/about-us"
             className="inline-block bg-blue-600 text4
-            4-white py-2 px-4 rounded-md hover:bg-blue-700 transition-colors mt-4 w-fit"
+            4-white py-2 px-4 rounded-md hover:bg-blue-700 text-white transition-colors mt-4 w-fit"
           >
             {t("home.about.readMore")}
           </a>
@@ -278,7 +279,7 @@ const HomePage = () => {
         <h1 className="text-center text-4xl font-bold text-black/80 mb-8">
           What We Excel
         </h1>
-        <NewsCardGrid newsItems={newsItems} length={3} />
+        <NewsCardGrid newsItems={products} length={3} />
       </section>
       <section className="p-8 bg-gray-50">
         <h2 className="text-center text-xl font-bold text-[#3A55B4] ">
@@ -289,77 +290,45 @@ const HomePage = () => {
         </h1>
         <CarouselProvider
           naturalSlideWidth={16}
-          naturalSlideHeight={18}
+          naturalSlideHeight={12}
           totalSlides={testimonials.length}
           visibleSlides={visibleSlides}
           infinite
           isPlaying
           interval={5000}
-          step={3}
+          step={1}
         >
           <Slider>
             {testimonials.map((testimonial, index) => (
               <Slide key={index} index={index}>
-                <div className="p-6">
-                  <div className="flex flex-col items-center justify-center p-4 bg-white w-[90%] rounded-lg border border-gray-200 shadow-sm h-full min-h-[180px]">
-                    <p className="text-gray-700 mb-4 text-center">
-                      &quot;{testimonial.quote}&quot;
+                <div className="p-4">
+                  <div className="bg-white rounded-lg border border-gray-200 shadow p-6 h-full">
+                    <p className="text-gray-700 mb-6 text-sm">
+                      {testimonial.quote}
                     </p>
-                  </div>
-                  <div className="flex items-center mt-4 gap-x-4">
-                    <img
-                      src={testimonial.avatar}
-                      alt={testimonial.name}
-                      className="w-12 h-12 rounded-full object-cover"
-                    />
-                    <div>
-                      <h4 className="font-bold text-gray-900">
-                        {testimonial.name}
-                      </h4>
-                      <p className="text-sm text-gray-600 mb-1">
-                        {testimonial.program}
-                      </p>
-                      <StarRating rating={testimonial.rating} />
+                    <div className="bg-blue-700 rounded-lg p-4 mt-auto">
+                      <div className="flex items-center gap-x-3">
+                        <img
+                          src={testimonial.avatar}
+                          alt={testimonial.name}
+                          className="w-12 h-12 rounded-full object-cover"
+                        />
+                        <div className="text-white">
+                          <h4 className="font-medium">{testimonial.name}</h4>
+                          <div className="flex mt-1">
+                            <StarRating
+                              rating={testimonial.rating}
+                              color="text-yellow-400"
+                            />
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </Slide>
             ))}
           </Slider>
-          <div className="flex justify-center mt-4">
-            <button className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white p-2 rounded-full shadow-md z-10 ml-2">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6 text-gray-600"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M15 19l-7-7 7-7"
-                />
-              </svg>
-            </button>
-            <button className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white p-2 rounded-full shadow-md z-10 mr-2">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6 text-gray-600"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M9 5l7 7-7 7"
-                />
-              </svg>
-            </button>
-          </div>
         </CarouselProvider>
       </section>
     </div>

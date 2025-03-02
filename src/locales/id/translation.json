@@ -1,9 +1,45 @@
 {
   "home": {
     "jumbotron": {
-      "title": "Di Mana Kualitas Bertemu Standarnya",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
-      "buttonText": "Temukan Lebih Banyak"
+      "slide1": {
+        "welcomeText": "SELAMAT DATANG DI PT. NIRVANA NIAGA SEJAHTERA",
+        "title": "Di Mana Kualitas Memenuhi Standarnya",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+        "buttonText": "Selengkapnya"
+      },
+      "slide2": {
+        "welcomeText": "PENGOLAHAN MAKANAN PREMIUM",
+        "title": "Keunggulan Kontrol Kualitas",
+        "description": "Fasilitas mutakhir kami memastikan setiap produk memenuhi standar kualitas dan keamanan tertinggi. Rasakan perbedaan yang dibuat oleh presisi.",
+        "buttonText": "Proses Kami"
+      },
+      "slide3": {
+        "welcomeText": "MELAYANI PASAR GLOBAL",
+        "title": "Standar Internasional",
+        "description": "Dengan sertifikasi dan kepatuhan di berbagai negara, kami memberikan keunggulan yang melampaui batas dan memenuhi harapan global.",
+        "buttonText": "Pelajari Lebih Lanjut"
+      }
+    },
+    "contactUs": {
+      "bannerAlt": "Banner Kontak",
+      "locationTitle": "Lokasi Kami",
+      "locationHeading": "Dimana Kami Berada",
+      "mapTitle": "Lokasi PT. Nirvana Niaga Sejahtera",
+      "infoTitle": "Informasi Kami",
+      "infoHeading": "Siapa Kami",
+      "assistTitle": "Kami selalu senang membantu Anda",
+      "phoneTitle": "Nomor Telepon",
+      "emailTitle": "Alamat Email",
+      "locationAddressTitle": "Lokasi",
+      "assistanceHours": "Jam Bantuan:",
+      "assistanceDays": "Senin - Jumat 6 pagi hingga 8 malam EST"
+    },
+    "visimisi": {
+      "visi": "Menjadi perusahaan terkemuka di bidang Industri pengolahan Perikanan dan berkelanjutan, Inovatif, dan Berdaya Saing Global, serta berkontribusi pada kesejahteraan masyarakat dan kelestarian sumber daya laut.",
+      "misi1": " Menghasilkan produk perikanan yang berkualitas tinggi dan higienis.",
+      "misi2": "Menjadi pelopor makanan sehat berbahan dasar ikan.",
+      "misi3": "Memperluas lapangan kerja untuk kesejahteraan masyarakat.",
+      "misi4": " Mengekspor hasil produksi ke mancanegara dan membantu kementerian kelautan dan perikanan dalam program ‘Ekonomi Biru, Indonesia Maju’."
     },
     "about": {
       "subtitle": "Tentang Kami",
