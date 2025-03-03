@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import banner from "../assets/page-banners/aboutus.png";
+import banner from "../assets/flattened/about-us.png";
 import about1 from "../assets/banner/about_1.png";
 import about2 from "../assets/banner/about_2.png";
 import about3 from "../assets/banner/about_3.png";
