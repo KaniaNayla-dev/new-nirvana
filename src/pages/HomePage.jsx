@@ -275,9 +275,7 @@ const HomePage = () => {
         <h2 className="text-center text-xl font-bold text-[#3A55B4] ">
           Our Products
         </h2>
-        <h1 className="text-center text-4xl font-bold text-black/80 mb-8">
-          What We Excel
-        </h1>
+
         <NewsCardGrid newsItems={newsItems} length={3} />
       </section>
       <section className="p-8 bg-gray-50">

@@ -14,7 +14,7 @@ const ProductsJadiPage = () => {
         />
       </div>
       <section className="sm:p-[4rem] p-8 flex flex-col gap-y-12">
-        <h3 className="mb-6 text-xl text-[#3A55B4] font-bold">Product Jadi</h3>
+        <h3 className="mb-6 text-xl text-[#3A55B4] font-bold">Product Olahan</h3>
         <NewsCardGrid
           newsItems={newsItems}
           itemsPerPage={6}

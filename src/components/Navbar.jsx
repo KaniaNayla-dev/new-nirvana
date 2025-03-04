@@ -45,7 +45,7 @@ const Navbar = () => {
     {
       name: "Products",
       children: [
-        { name: "Produk Jadi", href: "/produk-jadi" },
+        { name: "Produk Olahan", href: "/produk-olahan" },
         { name: "Produk Mentah", href: "/produk-mentah" },
       ],
     },
@@ -186,7 +186,7 @@ const Navbar = () => {
         <div className="bg-[#3A55B4] flex gap-x-6 w-full justify-end py-4 px-4  text-white text-xs font-extralight">
           <section className="flex gap-1">
             <RiPhoneFill className="self-center" />
-            <p>Info : +62 123 456 78 </p>
+            <a href="https://wa.me/6282188878801" target="_blank">Info : 082188878801 </a>
           </section>
           <section className="flex gap-1">
             <RiMailFill className="self-center" />

@@ -12,7 +12,9 @@ const Footer = () => {
               <img src={logo} alt="Logo" className="h-16 mb-4" />
             </a>
             <p className="text-gray-600 mb-4">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam
+              PT. Nirvana Niaga Sejahtera adalah perusahaan pengolahan makanan
+              laut profesional di Indonesia, berkomitmen menghadirkan produk
+              berkualitas melalui teknik pengolahan terbaik untuk pasar global.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-blue-600">
@@ -49,16 +51,15 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <span className="mr-2">📞</span>
-                <a href="tel:(414)687-5892" className="text-gray-600">
-                  (414) 687 - 5892
+                <a href="https://wa.me/6282188878801" target="_blank">
+                  Info : 082188878801{" "}
                 </a>
               </li>
               <li className="flex items-start">
                 <span className="mr-2 mt-1">📍</span>
                 <div className="text-gray-600">
-                  794 Mcallister St
-                  <br />
-                  San Francisco, 94102
+                  Jl. Kima VI No.B2 Kav. F3/B1, Daya, Biringkanaya, Makassar
+                  City, South Sulawesi 90241
                 </div>
               </li>
             </ul>
