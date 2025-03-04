@@ -4,7 +4,7 @@
       "slide1": {
         "welcomeText": "WELCOME TO PT. NIRVANA NIAGA SEJAHTERA",
         "title": "Where Quality Meets Its Standard",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+        "description": "With certifications and compliance across various countries, we deliver excellence that transcends borders and meets global expectations.",
         "buttonText": "Learn More"
       },
       "slide2": {
@@ -70,11 +70,11 @@
       "heading": "Berita Terkini"
     },
     "testimonials": {
-      "heading": "Testimoni from Students"
+      "heading": "Testimoni from Clients"
     }
   },
   "Testimoni": {
-    "heading": "Testimoni from Students",
+    "heading": "Testimoni from Clients",
     "desc": "Working with Nirvana Niaga Sejahtera has been a game-changer for our business. The team is professional, dedicated, and highly skilled at delivering solutions that are tailored to our needs. Their exceptional customer service and expertise in the industry make them an invaluable partner. We highly recommend their services to anyone looking to take their business to the next level.",
     "banner_p": "Your Trust, Our Commitment",
     "banner_h1": "Real Stories, Real Satisfaction from Our Clients"

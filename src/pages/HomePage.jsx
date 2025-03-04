@@ -277,7 +277,7 @@ const HomePage = () => {
           Our Products
         </h2>
 
-        <NewsCardGrid newsItems={newsItems} length={3} />
+        <NewsCardGrid newsItems={products} length={3} />
       </section>
       <section className="p-8 bg-gray-50">
         <h2 className="text-center text-xl font-bold text-[#3A55B4] ">
