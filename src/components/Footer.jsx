@@ -1,7 +1,10 @@
 import { FaTwitter, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa6";
+import { useTranslation } from "react-i18next";
 import logo from "../assets/logo-notext.png";
 
 const Footer = () => {
+    const { t } = useTranslation();
+  
   return (
     <footer className="bg-white pt-[8rem] pb-6">
       <div className="container mx-auto px-4">
@@ -12,9 +15,7 @@ const Footer = () => {
               <img src={logo} alt="Logo" className="h-16 mb-4" />
             </a>
             <p className="text-gray-600 mb-4">
-              PT. Nirvana Niaga Sejahtera adalah perusahaan pengolahan makanan
-              laut profesional di Indonesia, berkomitmen menghadirkan produk
-              berkualitas melalui teknik pengolahan terbaik untuk pasar global.
+              {t('footer.about')}
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-blue-600">

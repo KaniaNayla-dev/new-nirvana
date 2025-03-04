@@ -192,10 +192,10 @@ const HomePage = () => {
       <section className="p-8">
         {/* Section Heading */}
         <h2 className="text-center text-xl font-bold text-[#3A55B4] ">
-          Our Services
+          {t("home.services.heading")}
         </h2>
         <h1 className="text-center text-4xl font-bold text-black/80 mb-8">
-          What We Provide
+          {t("home.services.sub_heading")}
         </h1>
 
         {/* Services Grid */}
@@ -274,17 +274,17 @@ const HomePage = () => {
 
       <section className="p-8">
         <h2 className="text-center text-xl font-bold text-[#3A55B4] ">
-          Our Products
+          {t("home.products.heading")}
         </h2>
 
         <NewsCardGrid newsItems={products} length={3} />
       </section>
       <section className="p-8 bg-gray-50">
         <h2 className="text-center text-xl font-bold text-[#3A55B4] ">
-          Our Testimonies
+          {t("home.testimonials.heading")}
         </h2>
         <h1 className="text-center text-4xl font-bold text-black/80 mb-8">
-          What They Say About Us
+          {t("home.testimonials.sub_heading")}
         </h1>
         <CarouselProvider
           naturalSlideWidth={16}

@@ -44,7 +44,7 @@ const Testimoni = () => {
             <h1 className="text-[#3A55B4] font-bold text-2xl">
               {t("Testimoni.heading")}
             </h1>
-            <h2 className="text-black/80 text-4xl">What Our Client Says</h2>
+            <h2 className="text-black/80 text-4xl">{t('Testimoni.sub_heading')}</h2>
           </div>
           <div className="flex flex-col w-full h-full text-justify">
             {t("Testimoni.desc")}
