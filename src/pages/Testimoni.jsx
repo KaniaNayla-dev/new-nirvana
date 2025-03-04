@@ -1,11 +1,12 @@
-import React from "react";
+/* eslint-disable react/prop-types */
+
 import banner from "../assets/page-banners/Testimoni.png";
 import { useTranslation } from "react-i18next";
-import { Slide, Slider } from "pure-react-carousel";
+
 import { testimonials } from "../constants/homepage";
 import { FaRegStar, FaStar } from "react-icons/fa6";
 import { FaStarHalfAlt } from "react-icons/fa";
-import TrimmingBanner from "../assets/banner/testiBanner.png"
+import TrimmingBanner from "../assets/banner/testiBanner.png";
 
 const Testimoni = () => {
   const StarRating = ({ rating }) => {

@@ -1,7 +1,12 @@
-import bakso from "../assets/products/nugget.png";
-import ikanTuna from "../assets/products/ikan-tuna.png";
+import bakso from "../assets/products/bakso.jpeg";
+
 import lumpia from "../assets/products/lumpia.png";
-export const newsItems = [
+import nugget from "../assets/products/nugget.png";
+import abon from "../assets/products/abon.jpeg";
+import kapsel from "../assets/products/kapsel.jpeg";
+import other from "../assets/products/other.jpg";
+import slicepacks from "../assets/products/slicepacks.jpeg";
+export const products = [
   {
     id: 123123,
     title: "Bakso Ikan Tuna 250gr Frozen Food Halal dan Sehat",
@@ -9,7 +14,7 @@ export const newsItems = [
       "BAKSO IKAN NIRVANA FOOD Olahan Ikan Tuna Kualitas Premium !!!   PENTING!!! Semua Produk yang kami kirimkan adalah BEKU/FROZEN dan PRODUKSI TERBARU.   - Bakso Ikan merupakan olahan Asli Daging Ikan Tuna Kualitas Premium - Harga yang tertera adalah harga per....",
     date: "01/05/2025",
     image: bakso,
-    contentFile: "/texts/placeholder.txt",
+    contentFile: "/texts/bakso.txt",
   },
   {
     id: 123901831,
@@ -18,8 +23,8 @@ export const newsItems = [
       "LUMPIA IKAN NIRVANA FOOD Olahan Ikan Tuna Kualitas Premium !!!   PENTING!!! Semua Produk yang kami kirimkan adalah BEKU/FROZEN dan PRODUKSI TERBARU.   - Lumpia Ikan merupakan olahan Asli Daging Ikan Tuna Kualitas Premium - Harga yang tertera adalah harga per bungkus - 1 Bungkus berisi 6 Biji - Berat total 250 gram - Bersertifikat HA",
     date: "02/05/2025",
     place: "Jakarta,Indonesia",
-    image: ikanTuna,
-    contentFile: "/texts/placeholder.txt",
+    image: lumpia,
+    contentFile: "/texts/lumpia.txt",
   },
   {
     id: 12038101421,
@@ -27,65 +32,44 @@ export const newsItems = [
     description:
       "NUGGET IKAN NIRVANA FOOD Olahan Ikan Tuna Kualitas Premium !!!   PENTING!!! Semua Produk yang kami kirimkan adalah BEKU/FROZEN dan PRODUKSI TERBARU.   - Nugget Ikan merupakan olahan Asli Daging Ikan Tuna Kualitas Premium - Harga yang tertera adalah harga per bungkus - 1 Bungkus berisi 12 Biji - Berat total 250 gram - Bersertifikat H",
     date: "12/05/2025",
-    image: lumpia,
-    contentFile: "/texts/placeholder.txt",
+    image: nugget,
+    contentFile: "/texts/nugget.txt",
   },
   {
     id: 80985702,
-    title: "UMIBA Membuka Program Baru untuk Industri Kreatif",
+    title: "Kapal Selam 250gr Frozen Food Halal dan Sehat",
     description:
-      "Dalam rangka mendukung perkembangan industri kreatif, UMIBA mengumumkan peluncuran program baru yang berfokus pada desain, seni, dan teknologi...",
-    date: "09/05/2025",
-    image: lumpia,
-    contentFile: "/texts/placeholder.txt",
+      "PEMPEK KAPSEL NIRVANA FOOD Olahan Ikan Tuna Kualitas Premium !!!   PENTING!!! Semua Produk yang kami kirimkan adalah BEKU/FROZEN dan PRODUKSI TERBARU.   - Pempek Kapal Selam merupakan olahan Asli Daging Ikan Tuna Kualitas Premium - Harga yang tertera adalah harga per bungkus - 1 Bungkus berisi 4 Biji - Berat total 250 gram - Bersert...",
+    date: "12/01/2024",
+    image: kapsel,
+    contentFile: "/texts/lumpia.txt",
   },
   {
     id: 17231641,
-    title: "Penghargaan untuk UMIBA dalam Kompetisi Nasional 2024",
+    title: "Abon Ikan Tuna 250gr Frozen Food Halal dan Sehat",
     description:
-      "UMIBA berhasil meraih penghargaan bergengsi dalam kompetisi tingkat nasional, membuktikan kualitas dan dedikasi mahasiswa dalam berbagai bidang akademik...",
-    date: "16/08/2024",
-    image: ikanTuna,
-    contentFile: "/texts/placeholder.txt",
+      "ABON IKAN NIRVANA FOOD Olahan Ikan Tuna Kualitas Premium !!!   PENTING!!! Semua Produk yang kami kirimkan adalah PRODUKSI TERBARU.   - Abon Ikan merupakan olahan Asli Daging Ikan Tuna Kualitas Premium - Harga yang tertera adalah harga per bungkus - Berat total 125 gram - Bersertifikat HALAL dan BPOM MD   Cara penyimpanan:",
+    date: "21/01/2003",
+    image: abon,
+    contentFile: "/texts/abon.txt",
   },
   {
     id: 5,
-    title:
-      "Mahasiswa UMIBA meraih kejuaraan Silat dalam Kompetisi Nasional 2024",
+    title: "Slice Packs",
     description:
-      "UMIBA berhasil meraih penghargaan bergengsi dalam kompetisi tingkat nasional, membuktikan kualitas dan dedikasi mahasiswa dalam berbagai bidang akademik...",
-    date: "16/08/2024",
-    image: ikanTuna,
-    contentFile: "/texts/placeholder.txt",
+      "1.Slice Packs : •Slice Packs 10 gram: 6,5 cm L x 2,5 cm W x 10 Pcs/pack •Slice Packs 12 gram: 7 cm L x 3 cm W x 10 Pcs/pack •Slice Packs 15 gram: 8 cm L x 3 cm W x 10 Pcs/pack Term Of Payment : TO BE NEGOTIATED Quantity & Amount Tolerance is +/- 10% Export Packing   REMARKS Our factory capacity for Slice product: 45 tons up to 60 tons/month Meanwhile for Loin our capacit...",
+    date: "11/11/2024",
+    image: slicepacks,
+    contentFile: "/texts/slicepacks.txt",
   },
-  {
-    id: 3,
-    title:
-      "Mahasiswa UMIBA meraih kejuaraan Silat dalam Kompetisi Nasional 2024",
-    description:
-      "UMIBA berhasil meraih penghargaan bergengsi dalam kompetisi tingkat nasional, membuktikan kualitas dan dedikasi mahasiswa dalam berbagai bidang akademik...",
-    date: "16/08/2024",
-    image: ikanTuna,
-    contentFile: "/texts/placeholder.txt",
-  },
-  {
-    id: 2,
-    title:
-      "Mahasiswa UMIBA meraih kejuaraan Silat dalam Kompetisi Nasional 2024",
-    description:
-      "UMIBA berhasil meraih penghargaan bergengsi dalam kompetisi tingkat nasional, membuktikan kualitas dan dedikasi mahasiswa dalam berbagai bidang akademik...",
-    date: "16/08/2024",
-    image: ikanTuna,
-    contentFile: "/texts/placeholder.txt",
-  },
+
   {
     id: 1,
-    title:
-      "Mahasiswa UMIBA meraih kejuaraan Silat dalam Kompetisi Nasional 2024",
+    title: "Others Product",
     description:
-      "UMIBA berhasil meraih penghargaan bergengsi dalam kompetisi tingkat nasional, membuktikan kualitas dan dedikasi mahasiswa dalam berbagai bidang akademik...",
-    date: "16/08/2024",
-    image: ikanTuna,
-    contentFile: "/texts/placeholder.txt",
+      "Request Any Product  1. Octopus (Flower) 2. Boiled Octopus 3. UNI (Sea Urchin) Term Of Payment : TO BE NEGOTIATED Quantity & Amount Tolerance is +/- 10% Export Packing   REMARKS Our regular buyer is Japan (Yokohama Port) Company Experiences Since 2012 Certification: HACCP & SKP   For More Information, Please Contact us : Nurhadi Sam...",
+    date: "01/08/2024",
+    image: other,
+    contentFile: "/texts/other.txt",
   },
 ];

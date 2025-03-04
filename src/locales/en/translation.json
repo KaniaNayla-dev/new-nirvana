@@ -1,9 +1,46 @@
 {
   "home": {
     "jumbotron": {
-      "title": "Where Quality Meets its Standard",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
-      "buttonText": "Discover More"
+      "slide1": {
+        "welcomeText": "WELCOME TO PT. NIRVANA NIAGA SEJAHTERA",
+        "title": "Where Quality Meets Its Standard",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+        "buttonText": "Learn More"
+      },
+      "slide2": {
+        "welcomeText": "PREMIUM FOOD PROCESSING",
+        "title": "Excellence in Quality Control",
+        "description": "Our state-of-the-art facilities ensure every product meets the highest standards of quality and safety. Experience the difference precision makes.",
+        "buttonText": "Our Process"
+      },
+      "slide3": {
+        "welcomeText": "SERVING THE GLOBAL MARKET",
+        "title": "International Standards",
+        "description": "With certifications and compliance across various countries, we deliver excellence that transcends borders and meets global expectations.",
+        "buttonText": "Learn More"
+      }
+    },
+
+    "contactUs": {
+      "bannerAlt": "Banner Contact",
+      "locationTitle": "Our Location",
+      "locationHeading": "Where We're Located",
+      "mapTitle": "PT. Nirvana Niaga Sejahtera location",
+      "infoTitle": "Our Infos",
+      "infoHeading": "Who We Are",
+      "assistTitle": "We are always happy to assist you",
+      "phoneTitle": "Phone Number",
+      "emailTitle": "Email Address",
+      "locationAddressTitle": "Location",
+      "assistanceHours": "Assistance hours:",
+      "assistanceDays": "Monday - Friday 6 am to 8 pm EST"
+    },
+    "visimisi": {
+      "visi": "To become a leading company in the sustainable, innovative, and globally competitive fisheries processing industry, while contributing to the welfare of society and the preservation of marine resources.",
+      "misi1": "To produce high-quality and hygienic fishery products.",
+      "misi2": "To pioneer healthy fish-based foods.",
+      "misi3": "To expand employment opportunities for the welfare of society.",
+      "misi4": "To export production results overseas and assist the Ministry of Maritime Affairs and Fisheries in the 'Blue Economy, Advanced Indonesia' program."
     },
 
     "about": {
@@ -36,51 +73,49 @@
       "heading": "Testimoni from Students"
     }
   },
-  "Testimoni":{
+  "Testimoni": {
     "heading": "Testimoni from Students",
-    "desc" : "Working with Nirvana Niaga Sejahtera has been a game-changer for our business. The team is professional, dedicated, and highly skilled at delivering solutions that are tailored to our needs. Their exceptional customer service and expertise in the industry make them an invaluable partner. We highly recommend their services to anyone looking to take their business to the next level.",
-    "banner_p":"Your Trust, Our Commitment",
-    "banner_h1":"Real Stories, Real Satisfaction from Our Clients"
+    "desc": "Working with Nirvana Niaga Sejahtera has been a game-changer for our business. The team is professional, dedicated, and highly skilled at delivering solutions that are tailored to our needs. Their exceptional customer service and expertise in the industry make them an invaluable partner. We highly recommend their services to anyone looking to take their business to the next level.",
+    "banner_p": "Your Trust, Our Commitment",
+    "banner_h1": "Real Stories, Real Satisfaction from Our Clients"
   },
-  "aboutus":{
-    "about_1":{
-      "title" : "Who We Are?",
-      "description_1":"An honor for us to introduce PT. Nirvana Niaga Sejahtera, one of the professional seafood processing companies in Indonesia. To stay at the forefront of the dynamic global fisheries market, we are committed to ensuring proper and high-standard processing techniques to deliver quality seafood products.",
+  "aboutus": {
+    "about_1": {
+      "title": "Who We Are?",
+      "description_1": "An honor for us to introduce PT. Nirvana Niaga Sejahtera, one of the professional seafood processing companies in Indonesia. To stay at the forefront of the dynamic global fisheries market, we are committed to ensuring proper and high-standard processing techniques to deliver quality seafood products.",
       "description_2": "Founded in 2017 in Kawasan Industri Makassar, South Sulawesi, Indonesia, our company specializes in the management of fresh and frozen fish. We offer a wide variety of fish from Indonesian seawater, available in various cut types and sizes to meet our customers’ needs."
     },
-    "about_2":{
-      "title" : "Our Production & Technology",
-      "description_1":"To guarantee premium quality, PT.Nirvana Niaga Sejahtera:",
-      "description_2" :
-        [
-          "Selects only the best-quality fish from Indonesian waters.",
-          "Processes fish with modern equipment for freshness and hygiene.",
-          "Employs experienced professionals for high-standard production."
-        ]
-      ,
-      "description_3":"With a cutting-edge facility and strict quality control, we produce hygienic, healthy, and safe-to-consume fresh and frozen seafood for both local and international markets."
+    "about_2": {
+      "title": "Our Production & Technology",
+      "description_1": "To guarantee premium quality, PT.Nirvana Niaga Sejahtera:",
+      "description_2": [
+        "Selects only the best-quality fish from Indonesian waters.",
+        "Processes fish with modern equipment for freshness and hygiene.",
+        "Employs experienced professionals for high-standard production."
+      ],
+      "description_3": "With a cutting-edge facility and strict quality control, we produce hygienic, healthy, and safe-to-consume fresh and frozen seafood for both local and international markets."
     },
-    "about_3":{
-      "title" :"Our Values & Commitment",
-      "description_1":"At PT. Nirvana Niaga Sejahtera, we operate with a teamwork spirit, working professionally and with dedication from fishing to processing.",
-      "description_2" :"We are strongly committed to:",
-      "description_3":[
+    "about_3": {
+      "title": "Our Values & Commitment",
+      "description_1": "At PT. Nirvana Niaga Sejahtera, we operate with a teamwork spirit, working professionally and with dedication from fishing to processing.",
+      "description_2": "We are strongly committed to:",
+      "description_3": [
         "Maintaining sustainable fisheries and marine ecosystems.",
         "Following ethical and proper fishing procedures.",
         "Ensuring hygiene, safety, and quality in every process."
       ],
       "description_4": "By adhering to strict industry standards, we ensure that every product we deliver meets the highest quality expectations."
     },
-    "about_4":{
-      "title":"Continuous Growth & Global Standards",
-      "description_1":"We extend our deepest gratitude to all loyal customers who trust us as their premium seafood supplier. Your support drives us to:",
-      "description_2":[
+    "about_4": {
+      "title": "Continuous Growth & Global Standards",
+      "description_1": "We extend our deepest gratitude to all loyal customers who trust us as their premium seafood supplier. Your support drives us to:",
+      "description_2": [
         "Continuously improve service and product quality.",
         "Contribute positively to Indonesia’s fisheries sector.",
         "Ensure compliance with national and international seafood standards."
       ],
-      "description_3":"In the era of globalization, we strive to remain one of the most sought-after seafood processing companies by implementing advanced fishery management programs that cover catching, preparing, storing, and processing.",
-      "description_4":"Through the synergy of experienced professionals and cutting-edge technology, PT. Nirvana Niaga Sejahtera is committed to delivering the highest-quality seafood products to the world."
+      "description_3": "In the era of globalization, we strive to remain one of the most sought-after seafood processing companies by implementing advanced fishery management programs that cover catching, preparing, storing, and processing.",
+      "description_4": "Through the synergy of experienced professionals and cutting-edge technology, PT. Nirvana Niaga Sejahtera is committed to delivering the highest-quality seafood products to the world."
     }
   }
 }
