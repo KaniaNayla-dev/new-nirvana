@@ -6,7 +6,7 @@ export const testimonials = [
   {
     quote:
       "The service provided was amazing! From start to finish, I felt truly valued as a customer!",
-    name: "Ahmad Fadhil Ramadhan",
+    name: "Ahmad Fadhil R",
     avatar: mukaSmallTwo,
     rating: 4,
   },
