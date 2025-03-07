@@ -5,7 +5,7 @@ import mukaSmallThree from "../assets/muka/dewi-small.png";
 export const testimonials = [
   {
     quote:
-      "The service provided was absolutely amazing! From start to finish, I felt truly valued as a customer!",
+      "The service provided was amazing! From start to finish, I felt truly valued as a customer!",
     name: "Ahmad Fadhil Ramadhan",
     avatar: mukaSmallTwo,
     rating: 4,
