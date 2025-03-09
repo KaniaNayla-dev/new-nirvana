@@ -10,6 +10,7 @@ import ProductDetailPage from "../pages/ProductDetailPage";
 import Testimoni from "../pages/Testimoni";
 import AboutUs from "../pages/AboutUs";
 import ContactUsPage from "../pages/ContactUsPage";
+import Documentations from "../pages/Documentations";
 
 const AppRoutes = () => {
   return (
@@ -24,6 +25,7 @@ const AppRoutes = () => {
           <Route path="/contact" element={<ContactUsPage />} />
           <Route path="/testimoni" element={<Testimoni />} />
           <Route path="/visi-misi" element={<VisiMisi />} />
+          <Route path="/documentations" element={<Documentations />} />
         </Routes>
       </MainLayout>
     </>

@@ -64,9 +64,9 @@
       "vacuumSlice": "Vacuum Slice",
       "trimming": "Trimming",
       "skinless": "Skinless",
-      "stat1": "Container diekspor setiap bulan",
-      "stat2": "Bulan dalam setahun pengiriman tanpa henti",
-      "stat3": "Total Kontainer Diekspor dalam 7 Tahun"
+      "stat1": "Container exported each month",
+      "stat2": "Weeks in a year with nonstop deliveries",
+      "stat3": "Total container exported within 7 years"
     },
     "products": {
       "heading": "Our Products"
@@ -81,7 +81,7 @@
   },
   "Testimoni": {
     "heading": "Testimoni from Clients",
-    "sub_heading" : "What Our Client Says",
+    "sub_heading": "What Our Client Says",
     "desc": "Working with Nirvana Niaga Sejahtera has been a game-changer for our business. The team is professional, dedicated, and highly skilled at delivering solutions that are tailored to our needs. Their exceptional customer service and expertise in the industry make them an invaluable partner. We highly recommend their services to anyone looking to take their business to the next level.",
     "banner_p": "Your Trust, Our Commitment",
     "banner_h1": "Real Stories, Real Satisfaction from Our Clients"
@@ -125,7 +125,7 @@
       "description_4": "Through the synergy of experienced professionals and cutting-edge technology, PT. Nirvana Niaga Sejahtera is committed to delivering the highest-quality seafood products to the world."
     }
   },
-  "footer":{
-    "about":"PT. Nirvana Niaga Sejahtera is a professional seafood processing company in Indonesia, committed to delivering high-quality products through the best processing techniques for the global market."
+  "footer": {
+    "about": "PT. Nirvana Niaga Sejahtera is a professional seafood processing company in Indonesia, committed to delivering high-quality products through the best processing techniques for the global market."
   }
 }

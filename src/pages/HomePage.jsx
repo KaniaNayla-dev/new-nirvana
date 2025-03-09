@@ -18,7 +18,7 @@ import { FaRegStar, FaStar } from "react-icons/fa6";
 import { FaStarHalfAlt } from "react-icons/fa";
 import { TiPlus } from "react-icons/ti";
 import { MdHighQuality } from "react-icons/md";
-
+import video from "../assets/dokum/dokum.mov";
 const HomePage = () => {
   const StarRating = ({ rating }) => {
     const fullStars = Math.floor(rating);
@@ -91,7 +91,7 @@ const HomePage = () => {
               title={t("home.jumbotron.slide1.title")}
               description={t("home.jumbotron.slide1.description")}
               buttonText={t("home.jumbotron.slide1.buttonText")}
-              buttonLink="/contact"
+              buttonLink="/documentations"
               bgImage={banner1}
             />
           </Slide>
@@ -101,7 +101,7 @@ const HomePage = () => {
               title={t("home.jumbotron.slide2.title")}
               description={t("home.jumbotron.slide2.description")}
               buttonText={t("home.jumbotron.slide2.buttonText")}
-              buttonLink="/about-us"
+              buttonLink="#services"
               bgImage={banner1}
             />
           </Slide>
@@ -111,7 +111,7 @@ const HomePage = () => {
               title={t("home.jumbotron.slide3.title")}
               description={t("home.jumbotron.slide3.description")}
               buttonText={t("home.jumbotron.slide3.buttonText")}
-              buttonLink="/certifications"
+              buttonLink="/testimoni"
               bgImage={banner1}
             />
           </Slide>
@@ -122,11 +122,17 @@ const HomePage = () => {
       <section className="p-8 w-full flex flex-col md:flex-row items-center justify-center gap-8">
         {/* IMAGE */}
         <div className="md:w-1/3 w-[60%]">
-          <img
+          {/* <img
             src={selamatDatangBanner}
             alt="Selamat Datang"
             className="w-full h-auto rounded-lg object-cover"
-          />
+          /> */}
+          <div className="mb-6">
+            <video controls className="">
+              <source src={video} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
         </div>
 
         {/* TEXT */}
@@ -180,7 +186,7 @@ const HomePage = () => {
           </div>
 
           <a
-            href="/about-us"
+            href="/about"
             className="inline-block bg-blue-600 text4
             4-white py-2 px-4 rounded-md hover:bg-blue-700 text-white transition-colors mt-4 w-fit"
           >
@@ -189,7 +195,7 @@ const HomePage = () => {
         </div>
       </section>
 
-      <section className="p-8">
+      <section className="p-8" id="services">
         {/* Section Heading */}
         <h2 className="text-center text-xl font-bold text-[#3A55B4] ">
           {t("home.services.heading")}

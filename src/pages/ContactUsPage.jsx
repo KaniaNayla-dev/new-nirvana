@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import banner from "../assets/flattened/products.png";
+import banner from "../assets/flattened/contacts.png";
 
 const ContactUsPage = () => {
   const { t } = useTranslation();
