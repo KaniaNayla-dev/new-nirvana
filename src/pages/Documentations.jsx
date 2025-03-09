@@ -1,4 +1,4 @@
-import video from "../assets/dokum/dokum.mov";
+// import video from "../assets/dokum/dokum.mov";
 import one from "../assets/dokum/1.jpeg";
 import two from "../assets/dokum/2.jpeg";
 import three from "../assets/dokum/3.jpeg";
@@ -32,8 +32,27 @@ import thirty from "../assets/dokum/30.jpeg";
 import thirtyOne from "../assets/dokum/31.jpeg";
 import thirtyTwo from "../assets/dokum/32.jpeg";
 import thirtyThree from "../assets/dokum/33.jpeg";
+import thirtyFour from "../assets/dokum/34.JPG";
+import thirtyFive from "../assets/dokum/35.JPG";
+import thirtySix from "../assets/dokum/36.JPG";
+import thirtySeven from "../assets/dokum/37.JPG";
+import thirtyEight from "../assets/dokum/38.JPG";
+import thirtyNine from "../assets/dokum/39.JPG";
+import forty from "../assets/dokum/40.JPG";
+import fortyOne from "../assets/dokum/41.JPG";
+import fortyTwo from "../assets/dokum/42.JPG";
 
 const images = [
+  thirtyFour,
+  thirtyFive,
+  thirtySix,
+  thirtySeven,
+  thirtyEight,
+  thirtyNine,
+  forty,
+  fortyOne,
+  fortyTwo,
+
   one,
   two,
   three,
