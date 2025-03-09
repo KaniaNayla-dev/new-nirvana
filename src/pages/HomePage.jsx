@@ -9,7 +9,7 @@ import trimmingBanner from "../assets/banner/trimming-banner.png";
 import skinlessBanner from "../assets/banner/skinless-banner.png";
 import { CarouselProvider, Slider, Slide } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
-import selamatDatangBanner from "../assets/images/selamat-datang.png";
+// import selamatDatangBanner from "../assets/images/selamat-datang.png";
 import { NewsCardGrid } from "../components/NewsCard";
 import { products } from "../constants/news";
 import { testimonials } from "../constants/homepage";

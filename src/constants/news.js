@@ -6,6 +6,11 @@ import abon from "../assets/products/abon.jpeg";
 import kapsel from "../assets/products/kapsel.jpeg";
 import other from "../assets/products/other.jpg";
 import slicepacks from "../assets/products/slicepacks.jpeg";
+import dimsum from "../assets/products/dimsum.jpeg";
+import panada from "../assets/products/panada.JPG";
+// import kapsel from "../assets/products/kapsel.jpeg";
+import lenjer from "../assets/products/lenjer.jpeg";
+import kakinaga from "../assets/products/kaki.jpeg";
 export const products = [
   {
     id: 123123,
@@ -42,7 +47,7 @@ export const products = [
       "PEMPEK KAPSEL NIRVANA FOOD Olahan Ikan Tuna Kualitas Premium !!!   PENTING!!! Semua Produk yang kami kirimkan adalah BEKU/FROZEN dan PRODUKSI TERBARU.   - Pempek Kapal Selam merupakan olahan Asli Daging Ikan Tuna Kualitas Premium - Harga yang tertera adalah harga per bungkus - 1 Bungkus berisi 4 Biji - Berat total 250 gram - Bersert...",
     date: "12/01/2024",
     image: kapsel,
-    contentFile: "/texts/lumpia.txt",
+    contentFile: "/texts/pempek.txt",
   },
   {
     id: 17231641,
@@ -53,6 +58,43 @@ export const products = [
     image: abon,
     contentFile: "/texts/abon.txt",
   },
+  {
+    id: 17123231641,
+    title: "Dimsum Ikan Tuna 250gr Frozen Food Halal dan Sehat",
+    description:
+      "DIMSUM IKAN NIRVANA FOOD Olahan Ikan Tuna Kualitas Premium !!!   PENTING!!! Semua Produk yang kami kirimkan adalah BEKU/FROZEN dan PRODUKSI TERBARU.   - Dimsum Ikan merupakan olahan Asli Daging Ikan Tuna Kualitas Premium - Harga yang tertera adalah harga per bungkus - 1 Bungkus berisi 11 Biji - Berat total 250 gram - Bersertifikat H",
+    date: "21/01/2020",
+    image: dimsum,
+    contentFile: "/texts/dimsum.txt",
+  },
+  {
+    id: 17123232374,
+    title: "Panada",
+    description:
+      "Panada dengan kualitas Premium !!!   PENTING!!! Semua Produk yang kami kirimkan adalah BEKU/FROZEN dan PRODUKSI TERBARU.   - Panada merupakan olahan asli Kualitas Premium - Harga yang tertera adalah harga per bungkus - 1 Bungkus berisi 11 Biji - Berat total 250 gram - Bersertifikat H",
+    date: "21/01/2020",
+    image: panada,
+    contentFile: "/texts/panada.txt",
+  },
+  {
+    id: 17123232324,
+    title: "Kaki Naga",
+    description:
+      "KAKI IKAN NIRVANA FOOD Olahan Ikan Tuna Kualitas Premium !!!   PENTING!!! Semua Produk yang kami kirimkan adalah BEKU/FROZEN dan PRODUKSI TERBARU.   - Kaki Naga Ikan merupakan olahan Asli Daging Ikan Tuna Kualitas Premium - Harga yang tertera adalah harga per bungkus - 1 Bungkus berisi 14 Biji - Berat total 250 gram - Bersertifikat",
+    date: "21/01/2020",
+    image: kakinaga,
+    contentFile: "/texts/kakinaga.txt",
+  },
+  {
+    id: 17123292324,
+    title: "Pempek Lenjer",
+    description:
+      "PEMPEK LENJER NIRVANA FOOD Olahan Ikan Tuna Kualitas Premium !!!   PENTING!!! Semua Produk yang kami kirimkan adalah BEKU/FROZEN dan PRODUKSI TERBARU.   - pempek Lenjer merupakan olahan Asli Daging Ikan Tuna Kualitas Premium - Harga yang tertera adalah harga per bungkus - 1 Bungkus berisi 6 Biji - Berat total 250 gram - Bersertifika",
+    date: "21/01/2013",
+    image: lenjer,
+    contentFile: "/texts/pempek.txt",
+  },
+
   {
     id: 5,
     title: "Slice Packs",

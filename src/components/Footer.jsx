@@ -3,8 +3,8 @@ import { useTranslation } from "react-i18next";
 import logo from "../assets/logo-notext.png";
 
 const Footer = () => {
-    const { t } = useTranslation();
-  
+  const { t } = useTranslation();
+
   return (
     <footer className="bg-white pt-[8rem] pb-6">
       <div className="container mx-auto px-4">
@@ -14,8 +14,8 @@ const Footer = () => {
             <a href="#">
               <img src={logo} alt="Logo" className="h-16 mb-4" />
             </a>
-            <p className="text-gray-600 mb-4">
-              {t('footer.about')}
+            <p className="text-gray-600 mb-4 text-justify">
+              {t("footer.about")}
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-blue-600">
@@ -47,7 +47,7 @@ const Footer = () => {
               <li className="flex items-center">
                 <span className="mr-2">📧</span>
                 <a href="mailto:contact@company.com" className="text-gray-600">
-                  contact@company.com
+                  info-admin@gmail.ac.id
                 </a>
               </li>
               <li className="flex items-center">
