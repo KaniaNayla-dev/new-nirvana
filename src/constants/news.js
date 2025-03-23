@@ -19,7 +19,7 @@ export const products = [
       "BAKSO IKAN NIRVANA FOOD Olahan Ikan Tuna Kualitas Premium !!!   PENTING!!! Semua Produk yang kami kirimkan adalah BEKU/FROZEN dan PRODUKSI TERBARU.   - Bakso Ikan merupakan olahan Asli Daging Ikan Tuna Kualitas Premium - Harga yang tertera adalah harga per....",
     date: "01/05/2025",
     image: bakso,
-    contentFile: "/texts/bakso.txt",
+    contentFile: "/texts/bakso.md",
   },
   {
     id: 123901831,
@@ -29,7 +29,7 @@ export const products = [
     date: "02/05/2025",
     place: "Jakarta,Indonesia",
     image: lumpia,
-    contentFile: "/texts/lumpia.txt",
+    contentFile: "/texts/lumpia.md",
   },
   {
     id: 12038101421,
@@ -38,7 +38,7 @@ export const products = [
       "NUGGET IKAN NIRVANA FOOD Olahan Ikan Tuna Kualitas Premium !!!   PENTING!!! Semua Produk yang kami kirimkan adalah BEKU/FROZEN dan PRODUKSI TERBARU.   - Nugget Ikan merupakan olahan Asli Daging Ikan Tuna Kualitas Premium - Harga yang tertera adalah harga per bungkus - 1 Bungkus berisi 12 Biji - Berat total 250 gram - Bersertifikat H",
     date: "12/05/2025",
     image: nugget,
-    contentFile: "/texts/nugget.txt",
+    contentFile: "/texts/nugget.md",
   },
   {
     id: 80985702,
@@ -47,7 +47,7 @@ export const products = [
       "PEMPEK KAPSEL NIRVANA FOOD Olahan Ikan Tuna Kualitas Premium !!!   PENTING!!! Semua Produk yang kami kirimkan adalah BEKU/FROZEN dan PRODUKSI TERBARU.   - Pempek Kapal Selam merupakan olahan Asli Daging Ikan Tuna Kualitas Premium - Harga yang tertera adalah harga per bungkus - 1 Bungkus berisi 4 Biji - Berat total 250 gram - Bersert...",
     date: "12/01/2024",
     image: kapsel,
-    contentFile: "/texts/pempek.txt",
+    contentFile: "/texts/pempek.md",
   },
   {
     id: 17231641,
@@ -56,7 +56,7 @@ export const products = [
       "ABON IKAN NIRVANA FOOD Olahan Ikan Tuna Kualitas Premium !!!   PENTING!!! Semua Produk yang kami kirimkan adalah PRODUKSI TERBARU.   - Abon Ikan merupakan olahan Asli Daging Ikan Tuna Kualitas Premium - Harga yang tertera adalah harga per bungkus - Berat total 125 gram - Bersertifikat HALAL dan BPOM MD   Cara penyimpanan:",
     date: "21/01/2003",
     image: abon,
-    contentFile: "/texts/abon.txt",
+    contentFile: "/texts/abon.md",
   },
   {
     id: 17123231641,
@@ -65,7 +65,7 @@ export const products = [
       "DIMSUM IKAN NIRVANA FOOD Olahan Ikan Tuna Kualitas Premium !!!   PENTING!!! Semua Produk yang kami kirimkan adalah BEKU/FROZEN dan PRODUKSI TERBARU.   - Dimsum Ikan merupakan olahan Asli Daging Ikan Tuna Kualitas Premium - Harga yang tertera adalah harga per bungkus - 1 Bungkus berisi 11 Biji - Berat total 250 gram - Bersertifikat H",
     date: "21/01/2020",
     image: dimsum,
-    contentFile: "/texts/dimsum.txt",
+    contentFile: "/texts/dimsum.md",
   },
   {
     id: 17123232374,
@@ -74,7 +74,7 @@ export const products = [
       "Panada dengan kualitas Premium !!!   PENTING!!! Semua Produk yang kami kirimkan adalah BEKU/FROZEN dan PRODUKSI TERBARU.   - Panada merupakan olahan asli Kualitas Premium - Harga yang tertera adalah harga per bungkus - 1 Bungkus berisi 11 Biji - Berat total 250 gram - Bersertifikat H",
     date: "21/01/2020",
     image: panada,
-    contentFile: "/texts/panada.txt",
+    contentFile: "/texts/panada.md",
   },
   {
     id: 17123232324,
@@ -83,7 +83,7 @@ export const products = [
       "KAKI IKAN NIRVANA FOOD Olahan Ikan Tuna Kualitas Premium !!!   PENTING!!! Semua Produk yang kami kirimkan adalah BEKU/FROZEN dan PRODUKSI TERBARU.   - Kaki Naga Ikan merupakan olahan Asli Daging Ikan Tuna Kualitas Premium - Harga yang tertera adalah harga per bungkus - 1 Bungkus berisi 14 Biji - Berat total 250 gram - Bersertifikat",
     date: "21/01/2020",
     image: kakinaga,
-    contentFile: "/texts/kakinaga.txt",
+    contentFile: "/texts/kakinaga.md",
   },
   {
     id: 17123292324,
@@ -92,7 +92,7 @@ export const products = [
       "PEMPEK LENJER NIRVANA FOOD Olahan Ikan Tuna Kualitas Premium !!!   PENTING!!! Semua Produk yang kami kirimkan adalah BEKU/FROZEN dan PRODUKSI TERBARU.   - pempek Lenjer merupakan olahan Asli Daging Ikan Tuna Kualitas Premium - Harga yang tertera adalah harga per bungkus - 1 Bungkus berisi 6 Biji - Berat total 250 gram - Bersertifika",
     date: "21/01/2013",
     image: lenjer,
-    contentFile: "/texts/pempek.txt",
+    contentFile: "/texts/pempek.md",
   },
 
   {
@@ -102,7 +102,7 @@ export const products = [
       "1.Slice Packs : •Slice Packs 10 gram: 6,5 cm L x 2,5 cm W x 10 Pcs/pack •Slice Packs 12 gram: 7 cm L x 3 cm W x 10 Pcs/pack •Slice Packs 15 gram: 8 cm L x 3 cm W x 10 Pcs/pack Term Of Payment : TO BE NEGOTIATED Quantity & Amount Tolerance is +/- 10% Export Packing   REMARKS Our factory capacity for Slice product: 45 tons up to 60 tons/month Meanwhile for Loin our capacit...",
     date: "11/11/2024",
     image: slicepacks,
-    contentFile: "/texts/slicepacks.txt",
+    contentFile: "/texts/slicepacks.md",
   },
 
   {
@@ -112,6 +112,6 @@ export const products = [
       "Request Any Product  1. Octopus (Flower) 2. Boiled Octopus 3. UNI (Sea Urchin) Term Of Payment : TO BE NEGOTIATED Quantity & Amount Tolerance is +/- 10% Export Packing   REMARKS Our regular buyer is Japan (Yokohama Port) Company Experiences Since 2012 Certification: HACCP & SKP   For More Information, Please Contact us : Nurhadi Sam...",
     date: "01/08/2024",
     image: other,
-    contentFile: "/texts/other.txt",
+    contentFile: "/texts/other.md",
   },
 ];

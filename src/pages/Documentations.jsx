@@ -29,7 +29,7 @@ import twentySeven from "../assets/dokum/27.jpeg";
 import twentyEight from "../assets/dokum/28.jpeg";
 import twentyNine from "../assets/dokum/29.jpeg";
 import thirty from "../assets/dokum/30.jpeg";
-import thirtyOne from "../assets/dokum/31.jpeg";
+// import thirtyOne from "../assets/dokum/31.jpeg";
 import thirtyTwo from "../assets/dokum/32.jpeg";
 import thirtyThree from "../assets/dokum/33.jpeg";
 import thirtyFour from "../assets/dokum/34.JPG";
@@ -41,6 +41,7 @@ import thirtyNine from "../assets/dokum/39.JPG";
 import forty from "../assets/dokum/40.JPG";
 import fortyOne from "../assets/dokum/41.JPG";
 import fortyTwo from "../assets/dokum/42.JPG";
+import banner from "../assets/flattened/galleries.png";
 
 const images = [
   thirtyFour,
@@ -83,32 +84,41 @@ const images = [
   twentyEight,
   twentyNine,
   thirty,
-  thirtyOne,
+
   thirtyTwo,
   thirtyThree,
 ];
 
 export const Documentations = () => {
   return (
-    <div className="p-10">
-      <div className="mb-6">
-        {/* <video controls className="">
+    <>
+      <div className="w-full overflow-hidden">
+        <img
+          src={banner}
+          alt="Banner Fasilitas"
+          className="w-full h-auto object-cover"
+        />
+      </div>
+      <div className="p-10">
+        <div className="mb-6">
+          {/* <video controls className="">
           <source src={video} type="video/mp4" />
           Your browser does not support the video tag.
         </video> */}
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+          {images.map((src, index) => (
+            <div key={index} className="overflow-hidden rounded-lg shadow-md">
+              <img
+                src={src}
+                alt={`Image ${index + 1}`}
+                className="w-full h-auto object-cover"
+              />
+            </div>
+          ))}
+        </div>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-        {images.map((src, index) => (
-          <div key={index} className="overflow-hidden rounded-lg shadow-md">
-            <img
-              src={src}
-              alt={`Image ${index + 1}`}
-              className="w-full h-auto object-cover"
-            />
-          </div>
-        ))}
-      </div>
-    </div>
+    </>
   );
 };
 

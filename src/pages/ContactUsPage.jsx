@@ -39,14 +39,14 @@ const ContactUsPage = () => {
         </div>
 
         {/* Who We Are Section */}
-        <div className="mb-12 text-center">
+        {/* <div className="mb-12 text-center">
           <h2 className="text-blue-600 font-medium mb-2">
             {t("home.contactUs.infoTitle")}
           </h2>
           <h1 className="text-4xl font-bold text-gray-800 mb-8">
             {t("home.contactUs.infoHeading")}
           </h1>
-        </div>
+        </div> */}
 
         {/* Contact Information */}
       </div>

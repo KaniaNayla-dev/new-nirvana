@@ -2,11 +2,12 @@
   "home": {
     "jumbotron": {
       "slide1": {
-        "welcomeText": "WELCOME TO PT. NIRVANA NIAGA SEJAHTERA",
-        "title": "Where Quality Meets Its Standard",
-        "description": "With certifications and compliance across various countries, we deliver excellence that transcends borders and meets global expectations.",
-        "buttonText": "Learn More"
+        "welcomeText": "EXPLORE PT. NIRVANA NIAGA SEJAHTERA",
+        "title": "Discover What We Do Best",
+        "description": "See firsthand our meticulous process—from catching and processing to delivering certified quality products across global markets.",
+        "buttonText": "View Galleries"
       },
+
       "slide2": {
         "welcomeText": "PREMIUM FOOD PROCESSING",
         "title": "Excellence in Quality Control",

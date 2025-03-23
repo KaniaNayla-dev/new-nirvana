@@ -2,11 +2,12 @@
   "home": {
     "jumbotron": {
       "slide1": {
-        "welcomeText": "SELAMAT DATANG DI PT. NIRVANA NIAGA SEJAHTERA",
-        "title": "Di Mana Kualitas Memenuhi Standarnya",
-        "description": "Dengan sertifikasi dan kepatuhan di berbagai negara, kami memberikan keunggulan yang melampaui batas dan memenuhi harapan global.",
-        "buttonText": "Selengkapnya"
+        "welcomeText": "JELAJAHI PT. NIRVANA NIAGA SEJAHTERA",
+        "title": "Temukan Keunggulan Kami",
+        "description": "Saksikan langsung proses penangkapan, pengolahan, hingga distribusi produk berkualitas tinggi dengan standar dan sertifikasi internasional.",
+        "buttonText": "Lihat Galeri"
       },
+
       "slide2": {
         "welcomeText": "PENGOLAHAN MAKANAN PREMIUM",
         "title": "Keunggulan Kontrol Kualitas",

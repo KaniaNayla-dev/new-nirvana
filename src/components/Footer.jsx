@@ -47,7 +47,7 @@ const Footer = () => {
               <li className="flex items-center">
                 <span className="mr-2">📧</span>
                 <a href="mailto:contact@company.com" className="text-gray-600">
-                  info-admin@gmail.ac.id
+                  official@nirvanniagsejahtera.co.id
                 </a>
               </li>
               <li className="flex items-center">

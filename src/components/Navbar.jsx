@@ -186,11 +186,13 @@ const Navbar = () => {
         <div className="bg-[#3A55B4] w-full py-4 px-4 text-white text-xs font-extralight flex flex-wrap justify-start gap-y-2 sm:gap-y-0 sm:gap-x-6">
           <section className="flex gap-1 items-center">
             <RiPhoneFill className="self-center" />
-            <a href="https://wa.me/6282188878801" target="_blank">Info : 082188878801 </a>
+            <a href="https://wa.me/6282188878801" target="_blank">
+              Info : 082188878801{" "}
+            </a>
           </section>
           <section className="flex gap-1 items-center">
             <RiMailFill className="self-center" />
-            <p>info-admin@gmail.ac.id</p>
+            <p>official@nirvanniagsejahtera.co.id</p>
           </section>
           <div className="hidden sm:block">||</div>{" "}
           <div className="relative z-50">
