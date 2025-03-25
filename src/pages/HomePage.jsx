@@ -18,7 +18,7 @@ import { FaRegStar, FaStar } from "react-icons/fa6";
 import { FaStarHalfAlt } from "react-icons/fa";
 import { TiPlus } from "react-icons/ti";
 import { MdHighQuality } from "react-icons/md";
-import video from "../assets/dokum/dokum.mov";
+import video from "../assets/dokum/dokum.mp4";
 const HomePage = () => {
   const StarRating = ({ rating }) => {
     const fullStars = Math.floor(rating);
